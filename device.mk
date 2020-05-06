@@ -29,6 +29,9 @@ DEVICE_PATH := device/xiaomi/twolip
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
