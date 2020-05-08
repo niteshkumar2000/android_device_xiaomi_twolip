@@ -25,6 +25,11 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from twolip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Some common aosp Properties
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := twolip
 PRODUCT_MANUFACTURER := Xiaomi
