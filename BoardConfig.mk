@@ -49,5 +49,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-05
 
+# Binutils
+TARGET_KERNEL_NO_LLVM_BINUTILS := true
+
 # Inherit the proprietary files
 -include vendor/xiaomi/twolip/BoardConfigVendor.mk
