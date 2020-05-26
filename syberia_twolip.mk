@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/syberia/config/common.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 # Inherit from twolip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
