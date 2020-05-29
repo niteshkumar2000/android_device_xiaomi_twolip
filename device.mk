@@ -71,9 +71,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
-
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
