@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_twolip.mk
+    $(LOCAL_DIR)/syberia_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_twolip-user \
-    syberia_twolip-userdebug \
-    syberia_twolip-eng
+    syberia_tulip-user \
+    syberia_tulip-userdebug \
+    syberia_tulip-eng
